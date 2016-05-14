@@ -1,0 +1,17 @@
+{
+  "generator-plugin-wp": {
+    "name": "RefTagger Toggle",
+    "homepage": "http://dsgnwrks.pro",
+    "description": "Allows disabling Reftagger on a per-page/post basis",
+    "version": "0.0.0",
+    "author": "Justin Sternberg",
+    "authoremail": "justin@dsgnwrks.pro",
+    "authorurl": "http://dsgnwrks.pro",
+    "license": "GPLv2",
+    "slug": "reftagger-toggle",
+    "classname": "RefTagger_Toggle",
+    "classprefix": "RTT_",
+    "prefix": "reftagger_toggle",
+    "year": 2016
+  }
+}
