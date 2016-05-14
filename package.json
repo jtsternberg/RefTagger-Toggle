@@ -1,7 +1,7 @@
 {
 	"name": "reftagger-toggle",
 	"title": "RefTagger Toggle",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Allows disabling Reftagger on a per-page/post basis",
 	"author": {
 		"name": "Justin Sternberg",

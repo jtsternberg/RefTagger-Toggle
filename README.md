@@ -1,16 +1,16 @@
 # RefTagger Toggle #
 **Contributors:**      Justin Sternberg  
 **Donate link:**       http://dsgnwrks.pro  
-**Tags:**  
-**Requires at least:** 4.4  
+**Tags:** Reftagger, Logos, Bible, verses  
+**Requires at least:** 4.0]  
 **Tested up to:**      4.4  
-**Stable tag:**        0.0.0  
+**Stable tag:**        0.1.0  
 **License:**           GPLv2  
 **License URI:**       http://www.gnu.org/licenses/gpl-2.0.html  
 
 ## Description ##
 
-Allows disabling Reftagger on a per-page/post basis
+Allows disabling [Reftagger](https://wordpress.org/plugins/reftagger/) on a per-page/post basis.
 
 ## Installation ##
 
@@ -24,6 +24,9 @@ Allows disabling Reftagger on a per-page/post basis
 
 ## Screenshots ##
 
+![Option in Admin](https://raw.githubusercontent.com/jtsternberg/RefTagger-Toggle/master/screenshot-1.png)
+
+Option in Admin
 
 ## Changelog ##
 

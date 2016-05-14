@@ -3,7 +3,7 @@
  * Plugin Name: RefTagger Toggle
  * Plugin URI:  http://dsgnwrks.pro
  * Description: Allows disabling Reftagger on a per-page/post basis
- * Version:     0.0.0
+ * Version:     0.1.0
  * Author:      Justin Sternberg
  * Author URI:  http://dsgnwrks.pro
  * Donate link: http://dsgnwrks.pro
@@ -14,7 +14,7 @@
  * @link http://dsgnwrks.pro
  *
  * @package RefTagger Toggle
- * @version 0.0.0
+ * @version 0.1.0
  */
 
 /**
@@ -38,7 +38,7 @@
 /**
  * Main initiation class
  *
- * @since  NEXT
+ * @since  0.1.0
  */
 final class RefTagger_Toggle {
 
@@ -46,15 +46,15 @@ final class RefTagger_Toggle {
 	 * Current version
 	 *
 	 * @var  string
-	 * @since  NEXT
+	 * @since  0.1.0
 	 */
-	const VERSION = '0.0.0';
+	const VERSION = '0.1.0';
 
 	/**
 	 * URL of plugin directory
 	 *
 	 * @var string
-	 * @since  NEXT
+	 * @since  0.1.0
 	 */
 	protected $url = '';
 
@@ -62,7 +62,7 @@ final class RefTagger_Toggle {
 	 * Path of plugin directory
 	 *
 	 * @var string
-	 * @since  NEXT
+	 * @since  0.1.0
 	 */
 	protected $path = '';
 
@@ -70,7 +70,7 @@ final class RefTagger_Toggle {
 	 * Plugin basename
 	 *
 	 * @var string
-	 * @since  NEXT
+	 * @since  0.1.0
 	 */
 	protected $basename = '';
 
@@ -78,14 +78,14 @@ final class RefTagger_Toggle {
 	 * Singleton instance of plugin
 	 *
 	 * @var RefTagger_Toggle
-	 * @since  NEXT
+	 * @since  0.1.0
 	 */
 	protected static $single_instance = null;
 
 	/**
 	 * Creates or returns an instance of this class.
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 * @return RefTagger_Toggle A single instance of this class.
 	 */
 	public static function get_instance() {
@@ -99,7 +99,7 @@ final class RefTagger_Toggle {
 	/**
 	 * Sets up our plugin
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 */
 	protected function __construct() {
 		$this->basename = plugin_basename( __FILE__ );
@@ -110,7 +110,7 @@ final class RefTagger_Toggle {
 	/**
 	 * Attach other plugin classes to the base plugin class.
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 * @return void
 	 */
 	public function plugin_classes() {
@@ -121,7 +121,7 @@ final class RefTagger_Toggle {
 	/**
 	 * Add hooks and filters
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 * @return void
 	 */
 	public function hooks() {
@@ -132,7 +132,7 @@ final class RefTagger_Toggle {
 	/**
 	 * Activate the plugin
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 * @return void
 	 */
 	public function _activate() {
@@ -144,7 +144,7 @@ final class RefTagger_Toggle {
 	 * Deactivate the plugin
 	 * Uninstall routines should be in uninstall.php
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 * @return void
 	 */
 	public function _deactivate() {}
@@ -152,7 +152,7 @@ final class RefTagger_Toggle {
 	/**
 	 * Init hooks
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 * @return void
 	 */
 	public function init() {
@@ -165,7 +165,7 @@ final class RefTagger_Toggle {
 	/**
 	 * If refTagger is installed, add option to disable it.
 	 *
-	 * @since NEXT
+	 * @since 0.1.0
 	 *
 	 * @return void
 	 */
@@ -183,7 +183,7 @@ final class RefTagger_Toggle {
 	/**
 	 * Using CMB2, allow them to disable reftagger on certain pages/posts/etc.
 	 *
-	 * @since NEXT
+	 * @since 0.1.0
 	 *
 	 * @return void
 	 */
@@ -214,7 +214,7 @@ final class RefTagger_Toggle {
 	/**
 	 * Hooked to wp_footer, will disable refTagger if requested.
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 *
 	 * @return void
 	 */
@@ -228,7 +228,7 @@ final class RefTagger_Toggle {
 	 * Check if the plugin meets requirements and
 	 * disable it if they are not present.
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 * @return boolean result of meets_requirements
 	 */
 	public function check_requirements() {
@@ -249,7 +249,7 @@ final class RefTagger_Toggle {
 	/**
 	 * Deactivates this plugin, hook this function on admin_init.
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 * @return void
 	 */
 	public function deactivate_me() {
@@ -259,7 +259,7 @@ final class RefTagger_Toggle {
 	/**
 	 * Check that all plugin requirements are met
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 * @return boolean True if requirements are met.
 	 */
 	public static function meets_requirements() {
@@ -269,7 +269,7 @@ final class RefTagger_Toggle {
 	/**
 	 * Adds a notice to the dashboard if the plugin requirements are not met
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 * @return void
 	 */
 	public function requirements_not_met_notice() {
@@ -282,7 +282,7 @@ final class RefTagger_Toggle {
 	/**
 	 * Magic getter for our object.
 	 *
-	 * @since  NEXT
+	 * @since  0.1.0
 	 * @param string $field Field to get.
 	 * @throws Exception Throws an exception if the field is invalid.
 	 * @return mixed
@@ -305,7 +305,7 @@ final class RefTagger_Toggle {
  * Grab the RefTagger_Toggle object and return it.
  * Wrapper for RefTagger_Toggle::get_instance()
  *
- * @since  NEXT
+ * @since  0.1.0
  * @return RefTagger_Toggle  Singleton instance of plugin class.
  */
 function reftagger_toggle() {
